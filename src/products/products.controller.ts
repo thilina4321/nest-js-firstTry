@@ -1,6 +1,5 @@
 /* eslint-disable prettier/prettier */
 import { Body, Controller, Delete, Get, Param, Patch, Post } from '@nestjs/common';
-import { identity } from 'rxjs';
 import { ProductsService } from './products.service';
 
 @Controller('products')
